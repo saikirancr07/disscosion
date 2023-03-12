@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.items {
+  background-color: #f8f8ff;
+  padding: 20px;
+  width: 90%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .items {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .items {
+    width: 30%;
+  }
+}
+.logo {
+  width: 70px;
+}
+.name {
+  font-size: 20px;
+  color: #e73959;
+}
+.icon {
+  width: 30px;
+  margin-right: 20px;
+}
+.icon-container {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+}

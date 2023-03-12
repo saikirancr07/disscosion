@@ -1,0 +1,60 @@
+/* Write your code here. */
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 {
+  background-color: #eab308;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+  border-width: 0;
+  margin: 10px;
+}
+
+.button2 {
+  background-color: #ffffff;
+  width: 150px;
+  padding: 10px;
+  color: #323f4b;
+  border-radius: 15px;
+  border-width: 0;
+  margin: 10px;
+}
+
+.button3 {
+  background-color: #1d4ed8;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+  border-width: 0;
+  margin: 10px;
+}
+
+.heading {
+  font-family: Bree Serif;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .button1 {
+    width: 80px;
+    margin: 5px;
+  }
+  .button2 {
+    width: 80px;
+    margin: 5px;
+  }
+  .button3 {
+    width: 80px;
+    margin: 5px;
+  }
+}

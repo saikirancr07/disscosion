@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.list-item {
+  margin-right: 10px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+
+.active-button {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 5px;
+}

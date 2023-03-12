@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.list-items {
+  background-color: #ffffff33;
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+.team-card-image {
+  width: 60px;
+}
+.team-card-heading {
+  color: #ffffff;
+  text-align: center;
+}

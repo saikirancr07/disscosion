@@ -1,0 +1,48 @@
+.items-container {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  padding: 5px;
+}
+@media screen and (max-width: 767px) {
+  .items-container {
+    flex-direction: column;
+  }
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  justify-content: space-between;
+  width: 80%;
+}
+@media screen and (max-width: 767px) {
+  .logo-title {
+    margin: 0px;
+  }
+}
+.logo-url {
+  width: 25px;
+  height: 25px;
+}
+.title {
+  margin-left: 20px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.button {
+  background-color: transparent;
+  width: 30px;
+  border: none;
+  margin-left: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.domain-url {
+  color: #64748b;
+  margin-left: 30px;
+}
+.history {
+  display: flex;
+  align-items: center;
+}

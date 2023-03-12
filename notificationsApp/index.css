@@ -1,0 +1,57 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.body {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.card1 {
+  background-color: #0b69ff;
+}
+.card2 {
+  background-color: #2dca73;
+}
+.card3 {
+  background-color: #ffb800;
+}
+.card4 {
+  background-color: #ff0b37;
+}
+.container {
+  width: 60%;
+}
+.car {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.para {
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .para {
+    font-size: 12px;
+  }
+}

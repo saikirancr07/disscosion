@@ -1,0 +1,64 @@
+.bg-container {
+  background-color: #9ba9eb;
+  height: 100vh;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #5763a5;
+}
+.app-logo {
+  width: 150px;
+}
+.user-interact-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.user-inputs-card {
+  width: 60%;
+  background-color: #454f84;
+  padding: 30px;
+}
+.form-container {
+  width: 100%;
+}
+.input-heading {
+  color: #ffffff;
+}
+.input-card {
+  display: flex;
+  margin-bottom: 10px;
+}
+.input-icon-container {
+  background-color: #ffffff;
+  margin-right: 1px;
+  padding: 10px;
+}
+.input-icon {
+  width: 20px;
+}
+.input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.submit-button-container {
+  text-align: right;
+}
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  outline: none;
+}
+.top-image-container {
+  width: 40%;
+  text-align: center;
+}
+.top-image {
+  width: 300px;
+}

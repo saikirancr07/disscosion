@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+.not-found-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.not-found-logo {
+  width: 150px;
+}
+@media screen and (max-width: 500px) {
+  .not-found-logo {
+    width: 70px;
+  }
+}
+.not-found-heading {
+  color: #6d396b;
+  font-weight: 700;
+}

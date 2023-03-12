@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.items {
+  border: 1px solid #000000;
+  display: flex;
+}
+.contain {
+  width: 20%;
+}
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.delete-icon {
+  width: 30px;
+}

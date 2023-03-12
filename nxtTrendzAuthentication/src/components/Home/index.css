@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+.bottom-section {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  width: 60%;
+}
+.bottom-section-image {
+  width: 40%;
+}
+.bottom-section-button {
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  width: 100px;
+  padding: 10px;
+}

@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.title-container {
+  display: flex;
+}
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-right: 5px;
+}
+.course-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.para-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.course-para {
+  background-color: #f1f5f9;
+}

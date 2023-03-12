@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 400px;
+  height: 250px;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    width: 150px;
+    height: 100px;
+  }
+}
+.button1 {
+  cursor: pointer;
+  background-color: #0b69ff;
+  padding: 5px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+}
+.heading {
+  color: #ffffff;
+  font-weight: bold;
+}
+.para1 {
+  color: #ffffff;
+  font-size: 25px;
+}
+.para2 {
+  color: #cbd5e1;
+}
+.button2 {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 2px solid #94a3b8;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+  margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+/* Write your CSS code here */
+.navbar {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.navbar-logo {
+  width: 200px;
+}
+.navbar-list-container {
+  list-style-type: none;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.navbar-button {
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 5px;
+  width: 60px;
+}

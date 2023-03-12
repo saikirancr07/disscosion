@@ -1,0 +1,59 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: Roboto;
+}
+.card {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.box1 {
+  background-color: #fbbf24;
+  height: 100px;
+  width: 100px;
+}
+
+.box2 {
+  background-color: #38bdf8;
+  height: 200px;
+  width: 200px;
+}
+.box3 {
+  background-color: #ec4899;
+  height: 300px;
+  width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .box1 {
+    height: 50px;
+    width: 50px;
+  }
+  .box2 {
+    height: 100px;
+    width: 100px;
+  }
+  .box3 {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: Bre Serif;
+}

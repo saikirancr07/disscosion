@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.team-matches-container {
+  background-color: #a4261d;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.team-banner {
+  width: 100%;
+}
+.latest-matches {
+  color: #ffffff;
+  font-weight: 600;
+}

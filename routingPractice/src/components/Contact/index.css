@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+.contact-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-logo {
+  width: 150px;
+}
+@media screen and (max-width: 500px) {
+  .contact-logo {
+    width: 70px;
+  }
+}
+.contact-heading {
+  color: #6d396b;
+  font-weight: 700;
+}

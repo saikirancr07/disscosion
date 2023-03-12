@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  padding: 30px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.website-logo {
+  width: 30px;
+  height: 30px;
+}
+.cowin {
+  color: #2cc6c6;
+  margin-left: 5px;
+}
+.title {
+  color: #ffffff;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}

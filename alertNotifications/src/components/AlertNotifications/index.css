@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}
+.heading {
+  color: #0f172a;
+}
+.success {
+  margin-top: 0px;
+  color: #2dca73;
+  padding-top: 0px;
+}
+
+.success-icon {
+  color: #2dca73;
+  font-size: 30px;
+}
+.error {
+  color: #ff0b37;
+  margin-top: 0px;
+}
+.error-icon {
+  color: #ff0b37;
+  font-size: 30px;
+}
+.warning {
+  color: #ffb800;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.warning-icon {
+  color: #ffb800;
+  font-size: 30px;
+}
+.info {
+  color: #0f81e0;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.info-icon {
+  color: #0f81e0;
+  font-size: 30px;
+}
+.card {
+  width: 100%;
+  padding-top: 0px;
+}
+.icons {
+  margin-top: 0px;
+  margin-right: 40px;
+}
+.description {
+  color: #475569;
+}

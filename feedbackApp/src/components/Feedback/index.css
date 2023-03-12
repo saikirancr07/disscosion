@@ -1,0 +1,51 @@
+/* Write your CSS code here. */
+.bg-container {
+  height: 100vh;
+  background-color: #ffc0bb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.image {
+  width: 80px;
+}
+.images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.heading {
+  text-align: center;
+}
+.image-items {
+  text-align: center;
+}
+.para {
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 90%;
+    padding: 20px;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .image {
+    width: 50px;
+  }
+  .images-container {
+    width: 90%;
+  }
+}

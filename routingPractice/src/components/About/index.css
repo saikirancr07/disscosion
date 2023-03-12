@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.about-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-logo {
+  width: 150px;
+}
+@media screen and (max-width: 500px) {
+  .about-logo {
+    width: 70px;
+  }
+}
+.about-heading {
+  color: #6d396b;
+  font-weight: 700;
+}
+.about-para {
+  font-weight: 300;
+  font-size: 18px;
+  color: #555555;
+}

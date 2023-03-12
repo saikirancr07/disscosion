@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.match-card-container {
+  width: 100px;
+  background-color: #0f172a;
+  color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.list-container {
+  width: 100%;
+  list-style-type: none;
+  margin-top: 20px;
+  display: flex;
+  padding-left: 0px;
+}

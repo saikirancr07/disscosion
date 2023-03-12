@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.event-item {
+  background-color: #64748b;
+  width: 60%;
+  height: 100%;
+  padding: 30px;
+}
+.bg-container {
+  display: flex;
+}
+.active-event {
+  width: 40%;
+}

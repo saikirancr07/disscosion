@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.middle-section {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.card1 {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  width: 30%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.card2 {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  width: 30%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.card3 {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  width: 30%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.icon {
+  width: 40px;
+}

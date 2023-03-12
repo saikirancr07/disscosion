@@ -1,0 +1,6 @@
+/* Write your CSS here */
+.similar-list-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}

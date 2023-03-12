@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.list-items {
+  border: 1px solid #000000;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.star-button {
+  border: none;
+  background-color: transparent;
+}
+.name {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #171f46;
+}
+.description {
+  color: #b5b7c4;
+  font-weight: 500;
+}

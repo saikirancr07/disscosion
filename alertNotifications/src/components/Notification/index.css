@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.container {
+  width: 85%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0px 4px 16px 4px #bfbfbf;
+  margin-top: 20px;
+}
+.clear-icon {
+  align-self: center;
+  font-size: 30px;
+}

@@ -1,0 +1,21 @@
+/* Write your code here. */
+.details {
+  height: 150px;
+  width: 150px;
+  background-color: #9796f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.emoji {
+  width: 100px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.image {
+  width: 100%;
+}
+.duration-container-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-right: 5px;
+}
+.visit {
+  color: #0967d2;
+  font-weight: 600;
+}

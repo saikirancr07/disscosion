@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.list-container {
+  color: #ffffff;
+  list-style-type: none;
+  padding-left: 0px;
+  border: 2px solid #00e7ff;
+}
+.table {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00e7ff;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+.right {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+.usd {
+  margin-right: 30px;
+}
+.container {
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  color: #00e7ff;
+}
+.image {
+  width: 90%;
+  max-width: 70%;
+  text-align: center;
+}
+.loader {
+  text-align: center;
+}
+.img-container {
+  text-align: center;
+}
